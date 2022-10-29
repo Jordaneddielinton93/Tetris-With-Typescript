@@ -1,0 +1,41 @@
+.nextShapeContainer{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    border: solid thick black;
+}
+.nextShape{
+   
+
+ min-width: 213px;
+ max-width: 200px;
+ min-height: 150px;
+ overflow: hidden;
+
+ background-color: aliceblue;
+ display: flex;
+ flex-wrap: wrap;
+}
+.nextblock{
+
+        min-width:20px;
+        min-height: 25%;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+   
+}
+.nextShapeText{
+ position: absolute;
+ top: 165px;
+    right: 35px;
+    background-color: aliceblue;
+ width: 100px;
+ font-size: 1rem;
+ border: solid thick black;
+
+}
