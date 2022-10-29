@@ -44,5 +44,6 @@ export default function IsShapeBorderCollision({
       // - create a new color
       // - save the prev shape to the last location hit on bottom border
     }
+    // "ignore error below"
   }, [currShapePos, board, bottomBorder]);
 }
