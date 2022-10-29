@@ -1,13 +1,20 @@
-import { memo } from "react";
+import { memo, useState } from "react";
 
 function BoardUi({ board, currShapePos, currColor }: any) {
-  console.log(board.length);
+  let name = ["", "J", "O", "R", "D"];
+  let count = 0;
   return (
     <div className="board">
       {board.map(({ color, squareTaken }: any, currBlockPos: number) => {
+        if (currShapePos.includes(currBlockPos)) {
+          count += 1;
+        }
+        if (count === 5) {
+          count = 0;
+        }
         return (
           <div
-            key={Math.random() * 20}
+            key={currBlockPos}
             style={{
               background: squareTaken
                 ? color
@@ -16,7 +23,9 @@ function BoardUi({ board, currShapePos, currColor }: any) {
                 : "white",
             }}
             className="block"
-          ></div>
+          >
+            {currShapePos.includes(currBlockPos) && name[count]}
+          </div>
         );
       })}
     </div>
