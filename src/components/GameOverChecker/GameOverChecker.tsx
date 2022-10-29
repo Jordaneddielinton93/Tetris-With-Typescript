@@ -1,4 +1,3 @@
-import React from "react";
 import { flatListOfShapes } from "../listOfShapes/listOfShapes";
 
 export default function GameOverChecker({

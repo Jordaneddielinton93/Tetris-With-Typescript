@@ -1,4 +1,3 @@
-import React from "react";
 import "./bubble.css";
 export default function Bubbles() {
   return (

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-type Props = {};
-
 type board = {
   color: string;
   squareTaken: boolean;

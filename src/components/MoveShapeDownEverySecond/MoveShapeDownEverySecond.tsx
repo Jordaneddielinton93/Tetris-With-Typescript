@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
-
-type Props = {};
+import { useEffect } from "react";
 
 function MoveShapeDownEverySecond({
   currShapePos,

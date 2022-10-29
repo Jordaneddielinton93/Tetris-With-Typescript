@@ -3,7 +3,7 @@
     z-index: 10;
 }
 
-.button a{
+.button p{
   color:white;
   font-family:Helvetica, sans-serif;
   font-weight:bold;
@@ -28,7 +28,7 @@
   border-radius: 5px;
 }
 
-.button a:active{
+.button p:active{
   top:10px;
   background-color:#F78900;
   

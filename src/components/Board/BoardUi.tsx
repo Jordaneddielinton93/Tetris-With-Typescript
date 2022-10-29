@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import { memo } from "react";
 
 function BoardUi({ board, currShapePos, currColor }: any) {
   console.log(board.length);

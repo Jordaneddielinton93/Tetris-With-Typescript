@@ -9,7 +9,7 @@ const Button = ({
 }) => {
   return (
     <div className="button" onClick={handleClick}>
-      <a href="#">{text}</a>
+      <p>{text}</p>
     </div>
   );
 };
