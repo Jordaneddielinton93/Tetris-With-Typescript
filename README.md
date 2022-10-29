@@ -1,3 +1,5 @@
+# Tetris-With-Typescript
+
 ## Installation via - npx create-react-app my-app --template typescript
 
 - useMemo: used to update the NextShape when props has changed while also providing a no render if they are not ..awesome hook
@@ -23,5 +25,4 @@
 - current shape
 - current Color
 
-3.
-# Tetris-With-Typescript
+3. Prev shape
